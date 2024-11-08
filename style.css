@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    background-color: hsl(218, 23%, 16%);
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    font-family: "Manrope",sans-serif;
+    font-weight: 800;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 19%, 24%);
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.name-card{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.desc-card{
+    color: hsl(193, 38%, 86%);
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.desc-card:hover{
+    cursor: pointer;
+
+}
+
+
+.card .dado{
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(55%);
+    width: 60px;
+    height: 60px;
+}
+
+.card .dado:hover{
+    box-shadow: 0 5px 25px hsl(150, 100%, 66%);
+    cursor: pointer;
+}
